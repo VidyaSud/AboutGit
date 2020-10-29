@@ -11,4 +11,11 @@
    6 After merge
    git pull origin master
 
-   7 No changes
+   7
+   If having a problem pulling master github to local rep , perform below
+   git merge --abort
+
+git fetch --all
+Then, you have two options:
+
+git reset --hard origin/master
